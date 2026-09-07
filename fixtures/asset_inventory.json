@@ -1,0 +1,8 @@
+{
+  "inventory_time": "2026-09-01T00:00:00Z",
+  "assets": [
+    {"asset_id": "web-01", "name": "Production Web Server", "type": "server", "criticality": 9, "exposure": 9, "business_value": 8},
+    {"asset_id": "db-01", "name": "Database Server", "type": "database", "criticality": 10, "exposure": 5, "business_value": 9},
+    {"asset_id": "dev-01", "name": "Dev Workstation", "type": "workstation", "criticality": 3, "exposure": 4, "business_value": 2}
+  ]
+}

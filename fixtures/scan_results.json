@@ -1,0 +1,11 @@
+{
+  "scanner": "example-nmap-vulners",
+  "scan_time": "2026-09-01T00:00:00Z",
+  "findings": [
+    {"asset_id": "web-01", "cve_id": "CVE-2024-1234", "cvss_score": 9.8, "severity": "Critical", "exploitability": "weaponized", "patch_available": false},
+    {"asset_id": "web-01", "cve_id": "CVE-2024-5678", "cvss_score": 8.1, "severity": "High", "exploitability": "high", "patch_available": false},
+    {"asset_id": "db-01", "cve_id": "CVE-2024-9012", "cvss_score": 7.8, "severity": "High", "exploitability": "medium", "patch_available": true},
+    {"asset_id": "dev-01", "cve_id": "CVE-2024-1111", "cvss_score": 4.3, "severity": "Medium", "exploitability": "low", "patch_available": false},
+    {"asset_id": "web-01", "cve_id": "CVE-2024-2222", "cvss_score": 6.5, "severity": "Medium", "exploitability": "high", "patch_available": false}
+  ]
+}
