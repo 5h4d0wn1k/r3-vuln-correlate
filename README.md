@@ -1,3 +1,8 @@
+> **⚠️ EDUCATIONAL USE ONLY — AUTHORIZED TESTING ONLY.**
+> This project exists for education, research, and **defense of systems you own
+> or hold explicit written authorization to assess**. Unauthorized use is
+> prohibited and may be illegal. Read [ETHICS.md](ETHICS.md) and
+> [SCOPE.md](SCOPE.md) before use. Use at your own risk; **AS IS**, no warranty.
 # R3 — Vulnerability Correlator
 
 Correlates vulnerability-scanner JSON findings with an asset-inventory JSON fixture and emits a prioritized risk report. Retains CVE/CVSS/attack-chain logic from the legacy `vuln_correlate.py` plus a working, tested join-and-prioritize pipeline.
