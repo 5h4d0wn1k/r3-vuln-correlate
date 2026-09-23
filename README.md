@@ -5,7 +5,12 @@
 > [SCOPE.md](SCOPE.md) before use. Use at your own risk; **AS IS**, no warranty.
 # R3 — Vulnerability Correlator
 
-Correlates vulnerability-scanner JSON findings with an asset-inventory JSON fixture and emits a prioritized risk report. Retains CVE/CVSS/attack-chain logic from the legacy `vuln_correlate.py` plus a working, tested join-and-prioritize pipeline.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+
+Vulnerability correlation engine — cross-references CVE findings with asset
+inventory, computes context-aware risk scores, and emits a prioritized risk
+report for vulnerability management and patching decisions.
 
 ## Overview
 
@@ -120,6 +125,16 @@ If you discover vulnerabilities using this tool, follow responsible disclosure p
 2. Allow reasonable time for remediation
 3. Do not exploit beyond proof of concept
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Report security issues via [SECURITY.md](SECURITY.md).
+
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE). Educational and authorized testing use only.
+
+## Documentation
+
+- [ETHICS.md](ETHICS.md) — usage policy
+- [SCOPE.md](SCOPE.md) — authorized testing scope
